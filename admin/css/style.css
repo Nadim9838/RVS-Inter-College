@@ -1,0 +1,300 @@
+/* mobile or only mobile */
+@media (max-width: 400px) {
+    .top-header{
+        width: 100%;
+   }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+/*  */
+.nav-item a {
+    color: #fff !important;
+    padding: 8px 15px;
+    text-decoration: none;
+    display: block;
+}
+.nav-item a:hover {
+    background-color: #12385b;
+    border-radius: 5px;
+}
+#logout_button {
+    padding: 5px 10px;
+    background-color: grey;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#logout_button:hover {
+    background-color: grey;
+}
+/*  */
+nav {
+    margin: 0;
+    width: 100%;
+    background-color: darkblue;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/*nav ul li a button:hover{*/
+/*    border-radius: 5px;*/
+/*    background-color: red;*/
+/*    color: white;*/
+/*    cursor: pointer;*/
+/*}*/
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.content {
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    background-color: #17a2b8;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color:brown;
+}
+
+
+.footer_bottom {
+    background: darkblue;
+    padding: 15px 0;
+}
+
+.btn {
+    background: darkblue !important;
+}
+.page-link {
+    background: darkblue !important;
+}
+.footer_bottom p.crp {
+    float: left;
+    margin: 0;
+    color: #fff;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+}
+.footer_bottom a {
+	color: #fff;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-box {
+    background: #fff;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.textbox {
+    margin-bottom: 1em;
+}
+
+.textbox input {
+    width: 100%;
+    padding: 0.75em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn {
+    width: 100%;
+    padding: 1em;
+    background: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+
+/* Table and model styles */
+
+#main-table button:hover {
+    cursor: pointer;
+    color:#fff;
+    background:#333;
+}
+#create_user:hover {
+    cursor: pointer;
+}
+
+.model{
+    background: rgba(0,0,0,0.7);
+    position: fixed;
+    left: 0%;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    display: none;
+}
+
+.update_model{
+    background: rgba(0,0,0,0.7);
+    position: fixed;
+    left: 0%;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    display: none;
+}
+#model-form{
+    background: #fff;
+    width:45%;
+    position: relative;
+    top: 20%;
+    left: calc(25%);
+    padding: 15px;
+    border-radius: 4px;
+}
+@media only screen and (max-width: 768px) {
+    #model-form {
+        width: 70%;
+        left: calc(15%);
+    }
+}
+
+/* For mobile devices */
+@media only screen and (max-width: 480px) {
+    #model-form {
+        width: 90%; 
+        left: calc(5%);
+    }
+}
+
+#model-form h2{
+    margin : 0 0 15px;
+    padding-bottom: 1px solid #000;
+}
+.close-btn{
+    background: red;
+    color: white;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    cursor: pointer;
+}
+#create_table tr td input {
+    width: 100%;
+}
+#create_table tr td span {
+    font-size: large;
+    font-weight: 500;
+    margin-left: 15px;
+    text-transform: uppercase;
+}
+
+#update_table tr td input {
+    width: 100%;
+}
+#update_table tr td span {
+    font-size: large;
+    font-weight: 500;
+    margin-left: 15px;
+    text-transform: uppercase;
+}
+
+#search-bar{
+    float: inline-end;
+}
+
+/* Pagination  Styling */
+.pagination {
+    display: block;
+    text-align: center;
+    margin: 0;
+}
+
+.pagination li {
+    display:inline-block;
+    margin: 0 5px 0 0;
+}
+
+.pagination li a{
+    border: none;
+    background: #1e90ff;
+    color: #fff;
+}
+
+.pagination li a:hover,
+.pagination > li > a:focus{
+    color:#fff;
+    background:#333;
+}
+
+#admin-content .admin-pagination{
+    margin: 0;
+}
+#admin-content .admin-pagination li a{
+    display: block;
+}
+
+#add_course {
+width: 150px; 
+height: 50px;
+}
