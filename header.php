@@ -16,8 +16,9 @@
     <meta name="author" content="">
 
     <!-- Site Icons -->
-    <link rel="shortcut icon" href="#" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="#" />
+	 
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/logo.png">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -43,7 +44,7 @@
         <div class="row align-items-center">
             <div class="col-8 col-sm-6 d-flex">
                 <a class="navbar-brand d-flex align-items-center" href="index.php">
-                    <img src="images/rvs_logo.png" alt="Logo" class="logo-img img-fluid" style="max-height: 100px;">
+                    <img src="images/logo.png" alt="Logo" class="logo-img img-fluid" style="max-height: 100px;">
                     <h1 class="college-name ml-2 mb-0 text-white" style="font-size: 16px;">RVS Inter College</h1>
                 </a>
             </div>

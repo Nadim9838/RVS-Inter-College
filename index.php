@@ -34,7 +34,7 @@ include 'admin/database.php';
                             </div>
                         </div>
                     </div>
-                    <div class="pogoSlider-slide" style="background-image:url(images/college_img4.jpg);">
+                    <div class="pogoSlider-slide" style="background-image:url(images/college_img3.jpg);">
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12">
@@ -47,7 +47,7 @@ include 'admin/database.php';
                             </div>
                         </div>
                     </div>
-                    <div class="pogoSlider-slide" style="background-image:url(images/college_img5.jpg);">
+                    <div class="pogoSlider-slide" style="background-image:url(images/college_img4.jpg);">
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12">
